@@ -1,0 +1,57 @@
+# Created at 2020-04-11T16:07:37.043
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-04-11T16:07:37.046
+Unexpected IOException with stream: 2020-04-11 16:07:37.046  INFO 15164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+
+
+# Created at 2020-04-11T16:07:37.192
+Unexpected IOException with stream: 2020-04-11 16:07:37.192  INFO 15164 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+
+
+# Created at 2020-04-11T16:07:37.209
+Unexpected IOException with stream: 2020-04-11 16:07:37.209  INFO 15164 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+
+
+# Created at 2020-04-11T16:07:38.209
+Unexpected IOException with stream: 2020-04-11 16:07:38.208  INFO 15164 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+
+
+# Created at 2020-04-11T16:07:38.223
+Unexpected IOException with stream: 2020-04-11 16:07:38.222  INFO 15164 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2020-04-11T16:07:38.939
+Unexpected IOException with stream: 2020-04-11 16:07:38.939  WARN 15164 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2020-04-11T16:07:39.080
+Unexpected IOException with stream: 2020-04-11 16:07:39.080  INFO 15164 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2020-04-11T16:07:39.341
+Unexpected IOException with stream: 2020-04-11 16:07:39.339  INFO 15164 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+
+
+# Created at 2020-04-11T16:07:39.380
+Unexpected IOException with stream: 2020-04-11 16:07:39.380  INFO 15164 --- [           main] c.ssl.wardrobe.WardrobeApplicationTests  : Started WardrobeApplicationTests in 11.376 seconds (JVM running for 12.179)
+
+
+# Created at 2020-04-11T16:07:39.392
+Unexpected IOException: 5,1,com.ssl.wardrobe.WardrobeApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2020-04-11T16:07:39.447
+Unexpected IOException: 6,1,com.ssl.wardrobe.WardrobeApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2020-04-11T16:07:39.452
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.ssl.wardrobe.WardrobeApplicationTests,null,null,null
+
+
